@@ -1,0 +1,108 @@
+/* src/components/VideoGallery.css */
+
+.video-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    
+}
+  
+  .video-card {
+    width: calc(33.33% - 20px );
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  
+  .thumbnail {
+    width: 100%;
+    height: auto;
+  }
+  
+  .video-details {
+    padding: 10px;
+  }
+  
+  h3 {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .channel-info {
+    display: flex;
+    margin-top: 5px;
+  }
+  
+  .channel-logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 15px;
+    margin-top: 10px;
+  }
+  
+  .channel-name {
+    font-size: 17px;
+    margin-top: 20px;
+  }
+  
+  .views,
+  .likes {
+    font-size: 12px;
+    color: #777;
+    margin: 5px 0;
+    
+  }
+  .records{
+    display: flex;
+    justify-content: space-between;
+  }
+  /* .App{
+    text-align: center;
+  } */
+  .video-details h3{
+    text-align: left;
+
+  }
+  header{
+    display: flex;
+    align-items: center;
+  }
+  .youtube{
+    background-color: white;
+    width: 250px;
+    margin-top: -50px;
+  }
+  .search{
+    align-items: center;
+    height: 35px;
+    width: 500px;
+    margin-top: -50px;
+    margin-left: 250px;
+    border-radius: 20px;
+    border: 1px solid rgb(87, 87, 87);
+    padding: 10px 40px 10px 20px;
+  }
+  i{
+    margin-top: -50px;
+    margin-left: -30px;
+    color:rgb(87, 87, 87) ;
+  }
+  .fa-microphone{
+    margin-top: -50px;
+    margin-left: 30px;
+    color:black ;
+    font-size: 20px;
+    background-color: rgb(218, 218, 218);
+    border: 1px solid white;
+    padding: 7px 5px 5px 10px;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+  }
+  
